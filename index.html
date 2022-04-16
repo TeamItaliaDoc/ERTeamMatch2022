@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8"> 
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<script type="text/javascript" src="js/jquery-2.0.3.js"> </script>
+
+
+<script>
+    document.write('<script type="text/javascript"  src="js/Torneo.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+    document.write('<script type="text/javascript"  src="js/giocatori.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+    document.write('<script type="text/javascript"  src="js/leghe.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+    document.write('<link rel="stylesheet" href="css/TID.css?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+</script>
+<!--
+<script>
+    document.write('<script type="text/javascript"  src="js/Torneo.js"\><\/script>');
+    document.write('<script type="text/javascript"  src="js/giocatori.js"\><\/script>');
+    document.write('<script type="text/javascript"  src="js/leghe.js"\><\/script>');
+    document.write('<link rel="stylesheet" href="css/TID.css"\><\/script>');
+</script>
+-->
+
+</head>
+
+<!-- rilancio la pagina con un parametro per farla caricare se cambiata -->
+<script>
+    var query = window.location.search.substring(1);
+    if (!query)
+      window.location = 'index.html?dev=' + Math.floor(Math.random() * 100);
+    if (query == 'admin')
+    {
+        CAMPIONATO.isAdmin = true;
+    }   
+</script>
+    
+<body>
+    
+<!--                            INTESTAZIONE                                        -->   
+<main align=”center” class="frame-principale"> 
+<div class="intestazione-img">
+    <a href="https://www.chess.com/club/team-italia-doc"  target=”_blank”> <img height="125" width="125" src="img/logo.jpeg"></a>
+</div>
+<div>
+    <h1 class="intestazione-titolo">Team Emilia-Romagna</h1>
+    <br>
+    <h1 class="intestazione-piede">Stagione 2022</h1>
+    <HR>
+</div>
+
+<!--                            SEPARATORE                                      -->   
+<table align="left" width="950px" height="80px">
+<tr> <td><h1 class="intestazione-gironi">Team Match  </h1></td> </tr>
+<tr> <td><h1 class="intestazione-help">In questa pagina sono elencati tutti i Team Match della stagione 2022</h1>
+    <h1 class="intestazione-help">I risultati dei Matchs sono in tempo reale mentre le classifiche vengono aggiornate quando sono rese disponibili dal direttore del torneo    </h1>
+</td> </tr>
+</table>
+
+<!--                            CIS                                      -->   
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-gironi">Campionato Italiano a squadre </h1></td> </tr>
+    <tr> <td><h1 class="intestazione-help">Campionato Italiano tra regioni. Partecipano le 20 regioni italiane.</h1>
+    </td></tr>        
+</table>
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-lega">Qualificazioni</h1></td> </tr>
+</table>
+<table  id="CIS-Q" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td>  <!--Giornata -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td>  <!--icona -->
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+        </td>
+    </tr>
+</table>
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-lega">Finali</h1></td> </tr>
+</table>
+<table  id="CIS-F" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td>  <!--Giornata -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td>  <!--icona -->
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+        </td>
+    </tr>
+</table>
+<!--                            Europa Cup                                      --> 
+<!--   
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-gironi">Europa Cup</h1></td> </tr>
+    <tr> <td><h1 class="intestazione-help">L'Europa Cup è una competizione annuale in cui si sfidano i migliori team regionali dei campionati a squadre europei.</h1>
+    <h1 class="intestazione-help"> Partecipano 16 squadre regionali</h1>
+    <h1 class="intestazione-help"> <a target="_blank" href="https://docs.google.com/spreadsheets/d/1o6YiFSYWsaruZ27zo8He0wOyoF5wAo_K56U2cFKWO0o/edit#gid=0">Classifica</a></h1>
+    </td></tr>        
+</table>
+<table  id="EU" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td> 
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td> 
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+        </td>
+    </tr>
+</table>
+--> 
+<!--                            European InterRegio Championship - EIRC                                      -->   
+<table align="left" width="950px" height="80px">
+
+    <tr> <td><h1 class="intestazione-gironi">European InterRegio Championship - EIRC</h1></td> </tr>
+    <tr> <td><h1 class="intestazione-help">L'EIRC è un club che organizza competizioni tra team regionali europei. </h1>
+        </td></tr>        
+    </table>
+
+
+<!--                            EIRC Knockout                                    -->   
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-gironi">EIRC Knockout 2021/2022</h1></td> </tr>
+    <tr> <td><h1 class="intestazione-help">Il torneo è strutturato su due divisioni che prevedono incontri ad eliminazione diretta.</h1>
+    <h1 class="intestazione-help">Nella stagione 2021/2022 l'Emilia Romagna partecipa in prima divisione, composta da 16 team regionali</h1>
+    <h1 class="intestazione-help"> <a target="_blank" href="https://www.chess.com/clubs/forum/view/eirc-knockout-2021-22-1">Classifica</a></h1>
+    </td></tr>        
+</table>
+<table  id="EIRC-KN" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td>  <!--Giornata -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td>  <!--icona -->
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+        </td>
+    </tr>
+</table>
+
+<!--                            EIRC Under 1400                                     -->   
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-gironi">EIRC Under 1400</h1></td> </tr>
+    <tr> <td><h1 class="intestazione-help">Per l'edizione 2022 il torneo è strutturato su un girone unico composto da 10 team regionali.</h1>
+    </td></tr>        
+</table>
+<table  id="EIRC-1400" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td>  <!--Giornata -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td>  <!--icona -->
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+        </td>
+    </tr>
+</table>
+
+<!--                            EIRC U1700 Classic Cup 2021/2022                                     -->   
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-gironi">EIRC U1700 Classic Cup 2021/2022 - Finale</h1></td> </tr>
+    <tr> <td><h1 class="intestazione-help">La Classic Cup U1700 prevede una prima fase caratterizzata da 4 gironi da 3 squadre. Le prime due squadre di ogni girone accedono alle fase ad eliminazione diretta. Per ogni incontro sono previste squadre composte da 4 giocatori.</h1>
+        <h1 class="intestazione-help">Il team Emilia-Romagna ha superato la fase a gironi e raggiunto la fase ad eliminazione diretta</h1>
+</td></tr>        
+</table>
+<table  id="EIRC-1700" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td>  <!--Giornata -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td>  <!--icona -->
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+        </td>
+    </tr>
+</table>
+
+<!--                            EIRC OPEN 2022                                      -->   
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-gironi">EIRC OPEN 2022</h1></td> </tr>
+    <tr> <td><h1 class="intestazione-help">Il torneo Open prevede un sistema svizzero su 7 turni.  Partecipano 22 squadre regionali.</h1>
+    </td></tr>        
+</table>
+<table  id="EIRC-OPEN" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td>  <!--Giornata -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td>  <!--icona -->
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+        </td>
+    </tr>
+</table>
+
+
+
+<!--                            EIRC Four Musketeers                                      -->   
+<table align="left" width="950px">
+    <tr> <td> <h1 class="intestazione-gironi">EIRC Four Musketeers</h1> </td> </tr>
+        <tr> <td> <h1 class="intestazione-help">Nel torneo Four Musketeers si sfidano squadre composte da 4 team regionali. Per ogni incontro, ognuno dei team che compongono una squadra sfida tutti i team della squadra avversaria. Il sistema è svizzero su 5 turni. </h1>
+    <h1 class="intestazione-help">Per l'edizione 2022/2023 L'Emilia Romagna partecipa alla competizioni con la squadra I Vitigni, di cui fanno parte anche Marche, Piemonte e Veneto.</h1>
+    </td></tr></table>
+<table  id="EIRC-4" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td>  <!--Giornata -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td>  <!--icona -->
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+    </tr>
+
+</table>
+
+<!--                            Amichevoli                                      -->   
+<table align="left" width="950px">
+    <tr> <td><h1 class="intestazione-gironi">Amichevoli</h1></td> </tr>
+<tr> <td><h1 class="intestazione-help">Questo è l'elenco delle amichevoli giocate nel 2022. </h1>
+    </td></tr>        
+</table>
+<table  id="AMICI" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1">Turno</td>  <!--Giornata -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-lega-2">Data</td> 
+        <td class="classifica-lega-3">Avversario</td>  <!--icona -->
+        <td class="classifica-lega-4">Giocatori</td>
+        <td class="classifica-lega-4">Punteggio</td>
+        <td class="classifica-lega-4">Risultato</td>
+        <td class="classifica-col1">Link</td>
+        </td>
+    </tr>
+</table>
+
+
+<!--                            CLASSIFICA                                      -->   
+<div>
+<table  id="classifica" class="classifica-tabella">
+    <tr class="classifica-intestazione">
+    </tr>
+    
+</table>
+
+</div>
+
+
+    
+<!--                            SEPARATORE                                      -->   
+<table align="left" width="960px" height="100px">
+    <tr> </tr>
+    <tr> </tr>
+<tr> <td><h1 class="intestazione-gironi">Migliori giocatori</h1></td> </tr>
+</table>
+<!--                            Giocatori                                      -->   
+<table  id="giocatori" class="classifica-giocatori">
+    <tr class="classifica-intestazione">
+        <td class="classifica-col1"></td> <!-- posizione -->
+        <td class="giocatori-col1SEP">  </td>
+        <td class="classifica-col2">Giocatore</td> 
+         <td class="classifica-col2">Punti</td>
+        <td class="classifica-col2">Risultati</td>
+    </tr>
+
+</table>
+
+         
+
+<!--                            IMMAGINE  -  LOGO   -->
+    <table  width="950px" height="50px" class="Powered">
+    <tr>
+        <td></td> 
+    </tr>
+</table>
+
+<table  width="950px"   class="Powered">
+
+    <tr>
+            <td align="left" width="950px">Realizzato da Sandro2116</td> 
+        </tr>
+    </table> 
+
+
+
+    <script type="text/javascript"> 
+        elabora();
+    </script>
+</main>
+
+</html>
+
