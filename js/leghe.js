@@ -66,7 +66,7 @@ matchs['EIRC-OPEN-9'] = {"id":"", "lega":"EIRC-OPEN", "giornata":9, "data":"//20
 
 //EIRC-4
 matchs['EIRC-4-1'] = {"id":"1359677", "lega":"EIRC-4", "giornata":1, "data":"03/04/2022", "daCaricare" : true};
-matchs['EIRC-4-2'] = {"id":"", "lega":"EIRC-4", "giornata":2, "data":"//2022", "daCaricare" : true};
+matchs['EIRC-4-2'] = {"id":"1371979", "lega":"EIRC-4", "giornata":2, "data":"01/05/2022", "daCaricare" : true};
 matchs['EIRC-4-3'] = {"id":"", "lega":"EIRC-4", "giornata":3, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-4-4'] = {"id":"", "lega":"EIRC-4", "giornata":4, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-4-5'] = {"id":"", "lega":"EIRC-4", "giornata":5, "data":"//2022", "daCaricare" : true};
