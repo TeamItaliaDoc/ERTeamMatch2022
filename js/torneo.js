@@ -138,21 +138,22 @@ function caricaMatch(index, url)
         }    
 
     }).error(function(jqXhr, textStatus, error) {
+        console.log('ERRORE in lettura dati ' + this.url);
+        var index = 0;
+        for (var i in matchs) {
+            if ('https://api.chess.com/pub/match/' + matchs[i].id == this.url)
+                index = i;
+        };
         //è andato in errore ricarico i dati
         //Se responseJSON non è valorizzato solo se il record esiste    
         if (! jqXhr.responseJSON)
         {
             console.log('ERRORE ricarico dati: ' + this.url);
-            var index = 0;
-                for (var i in matchs) {
-                    if (matchs[i].url = this.url)
-                        index = i;
-                };
-                console.log('ERRORE ricarico dati: ricarico match ' + index);
-                caricaMatch(index, this.url);    
-            } else {
-                console.log('ERRORE Match non valida. ' + this.url);
-                console.log('ERRORE Match non valida. ' + this.url);
+            caricaMatch(index, this.url);    
+        } else {
+                matchs[index].daCaricare = false;
+                console.log('ERRORE Match non valida. ' + index);
+                console.log('ERRORE Match non valida. ' + index);
                 console.log('ERRORE Match non valida. ' + this.url);
                 console.log('ERRORE Match non valida. ' + this.url);
             }
