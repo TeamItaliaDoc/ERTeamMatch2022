@@ -198,7 +198,7 @@ function stampaTeams() {
                 }
                 var avatar = '';
                 if (matchs[index].avversarioName != '') {
-                    avatar = '<img class="classifica-avatar" src="' + avversari[matchs[index].avversarioName].avatar + '"><a style="color:black;text-decoration: none;font-weight: normal;" href="' + 'teams[classificaTeams[i]].url' + '" target=”_blank”> ' + matchs[index].avversarioName + '</a>';
+                    avatar = '<img class="classifica-avatar" src="' + avversari[matchs[index].avversarioName].avatar + '"><a style="color:black;text-decoration: none;font-weight: normal;" href="https://www.chess.com/club/' + matchs[index].avversarioName.replace(' ', '-') + '" target=”_blank”> ' +   avversari[matchs[index].avversarioName].url.replace('https://api.chess.com/pub/club/','https://www.chess.com/club/') + '</a>';
                 }
                  var stRiga = '<tr class="classifica-giocatori">' +
                 '<td class="classifica-col1">' + matchs[index].giornata + '</td>  ' +
