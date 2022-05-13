@@ -22,6 +22,18 @@ function elabora() {
             }
         }
     }
+    avversari['Rot-Weiß-Hessen'] = {};
+    avversari['Rot-Weiß-Hessen'].url = 'https://api.chess.com/pub/club/rot-weiss-hessen';
+    avversari['Rot-Weiß-Hessen'].avatar = 'https://images.chesscomfiles.com/uploads/v1/group/267500.ef5cc6bf.50x50o.23741cc730c6.png';
+    for (var i in matchs) {
+        if (matchs[i].avversarioName) {
+            if (! avversari[matchs[i].avversarioName]) {
+                avversari[matchs[i].avversarioName] = {};
+                avversari[matchs[i].avversarioName].url = 'https://api.chess.com/pub/club/' + matchs[i].avversarioName.replace(' ', '-');
+                avversari[matchs[i].avversarioName].avatar = '';
+            }
+        }
+    }
 
     //Carico i dati di tutti i match
     for (var i in matchs) {

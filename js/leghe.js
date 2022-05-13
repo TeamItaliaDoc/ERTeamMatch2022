@@ -1,6 +1,4 @@
 
-
-
 //CIS - Qualificazioni
 matchs['CIS-Q-1'] = {"id":"1326201", "lega":"CIS-Q", "giornata":1, "data":"10/01/2022", "daCaricare" : true};
 matchs['CIS-Q-2'] = {"id":"1333915", "lega":"CIS-Q", "giornata":2, "data":"31/01/2022", "daCaricare" : true};
@@ -33,7 +31,7 @@ matchs['EIRC-KN-5'] = {"id":"", "lega":"EIRC-KN", "giornata":5, "data":"//2022",
 
 //EIRC-1400
 matchs['EIRC-1400-1'] = {"id":"1362583", "lega":"EIRC-1400", "giornata":1, "data":"12/04/2022", "daCaricare" : true};
-matchs['EIRC-1400-2'] = {"id":"1373267", "lega":"EIRC-1400", "giornata":2, "data":"08/05/2022", "daCaricare" : true};
+//?????????? matchs['EIRC-1400-2'] = {"id":"1373267", "lega":"EIRC-1400", "giornata":2, "data":"08/05/2022", "daCaricare" : true};
 matchs['EIRC-1400-3'] = {"id":"", "lega":"EIRC-1400", "giornata":3, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-1400-4'] = {"id":"", "lega":"EIRC-1400", "giornata":4, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-1400-5'] = {"id":"", "lega":"EIRC-1400", "giornata":5, "data":"//2022", "daCaricare" : true};
@@ -64,12 +62,12 @@ matchs['EIRC-OPEN-7'] = {"id":"", "lega":"EIRC-OPEN", "giornata":7, "data":"//20
 matchs['EIRC-OPEN-8'] = {"id":"", "lega":"EIRC-OPEN", "giornata":8, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-OPEN-9'] = {"id":"", "lega":"EIRC-OPEN", "giornata":9, "data":"//2022", "daCaricare" : true};
 
+
 //EIRC-4
 matchs['EIRC-4-1'] = {"id":"1359677", "lega":"EIRC-4", "giornata":1, "data":"03/04/2022", "daCaricare" : true};
-matchs['EIRC-4-2'] = {"id":"0", "lega":"EIRC-4", "giornata":2, "data":"01/05/2022", "daCaricare" : true,
-"avversarioName":"Rot-Weiß Hessen","risultato":"Vinto forfait", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
-
-matchs['EIRC-4-3'] = {"id":"", "lega":"EIRC-4", "giornata":3, "data":"//2022", "daCaricare" : true};
+matchs['EIRC-4-2'] = {"id":"0", "lega":"EIRC-4", "giornata":2, "data":"01/05/2022", "daCaricare" : false,
+ "avversarioName":"Rot-Weiß-Hessen","risultato":"Vinto forfait", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
+matchs['EIRC-4-3'] = {"id":"1380769", "lega":"EIRC-4", "giornata":3, "data":"29/05/2022", "daCaricare" : true};
 matchs['EIRC-4-4'] = {"id":"", "lega":"EIRC-4", "giornata":4, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-4-5'] = {"id":"", "lega":"EIRC-4", "giornata":5, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-4-6'] = {"id":"", "lega":"EIRC-4", "giornata":6, "data":"//2022", "daCaricare" : true};
