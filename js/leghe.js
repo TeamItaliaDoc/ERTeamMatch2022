@@ -26,12 +26,14 @@ matchs['EU-9'] = {"id":"", "lega":"EU", "giornata":9, "data":"//2022", "daCarica
 //EIRC-KN
 matchs['EIRC-KN-1'] = {"id":"1256597", "lega":"EIRC-KN", "giornata":"Sedicesimi", "data":"25/01/2022", "daCaricare" : true};
 matchs['EIRC-KN-2'] = {"id":"1303685", "lega":"EIRC-KN", "giornata":"Ottavi", "data":"15/02/2022", "daCaricare" : true};
-matchs['EIRC-KN-3'] = {"id":"", "lega":"EIRC-KN", "giornata":3, "data":"//2022", "daCaricare" : true};  
+matchs['EIRC-KN-3'] = {"id":"1383683", "lega":"EIRC-KN", "giornata":"Quarti", "data":"05/06/2022", "daCaricare" : true};  
 matchs['EIRC-KN-5'] = {"id":"", "lega":"EIRC-KN", "giornata":5, "data":"//2022", "daCaricare" : true};
 
 //EIRC-1400
 matchs['EIRC-1400-1'] = {"id":"1362583", "lega":"EIRC-1400", "giornata":1, "data":"12/04/2022", "daCaricare" : true};
-//?????????? matchs['EIRC-1400-2'] = {"id":"1373267", "lega":"EIRC-1400", "giornata":2, "data":"08/05/2022", "daCaricare" : true};
+matchs['EIRC-1400-2'] = {"id":"1373267", "lega":"EIRC-1400", "giornata":2, "data":"08/05/2022", "daCaricare" : true,
+"avversarioName":"Rot-Weiß-Hessen","risultato":"Vinto forfait", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
+
 matchs['EIRC-1400-3'] = {"id":"", "lega":"EIRC-1400", "giornata":3, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-1400-4'] = {"id":"", "lega":"EIRC-1400", "giornata":4, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-1400-5'] = {"id":"", "lega":"EIRC-1400", "giornata":5, "data":"//2022", "daCaricare" : true};
