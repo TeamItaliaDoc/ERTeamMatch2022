@@ -35,7 +35,7 @@ matchs['EIRC-1400-2'] = {"id":"1373267", "lega":"EIRC-1400", "giornata":2, "data
 "avversarioName":"Rot-Weiß-Hessen","risultato":"Vinto forfait", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
 
 matchs['EIRC-1400-3'] = {"id":"1386533", "lega":"EIRC-1400", "giornata":3, "data":"12/06/2022", "daCaricare" : true};
-matchs['EIRC-1400-4'] = {"id":"", "lega":"EIRC-1400", "giornata":4, "data":"//2022", "daCaricare" : true};
+matchs['EIRC-1400-4'] = {"id":"1396735", "lega":"EIRC-1400", "giornata":4, "data":"03/07/2022", "daCaricare" : true};
 matchs['EIRC-1400-5'] = {"id":"", "lega":"EIRC-1400", "giornata":5, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-1400-6'] = {"id":"", "lega":"EIRC-1400", "giornata":6, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-1400-7'] = {"id":"", "lega":"EIRC-1400", "giornata":7, "data":"//2022", "daCaricare" : true};
@@ -44,7 +44,7 @@ matchs['EIRC-1400-9'] = {"id":"", "lega":"EIRC-1400", "giornata":9, "data":"//20
 
 //EIRC-1700
 matchs['EIRC-1700-1'] = {"id":"1335135", "lega":"EIRC-1700", "giornata":1, "data":"10/04/2022", "daCaricare" : true};
-matchs['EIRC-1700-2'] = {"id":"", "lega":"EIRC-1700", "giornata":2, "data":"//2022", "daCaricare" : true};
+matchs['EIRC-1700-2'] = {"id":"1396739", "lega":"EIRC-1700", "giornata":2, "data":"03/07/2022", "daCaricare" : true};
 matchs['EIRC-1700-3'] = {"id":"", "lega":"EIRC-1700", "giornata":3, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-1700-4'] = {"id":"", "lega":"EIRC-1700", "giornata":4, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-1700-5'] = {"id":"", "lega":"EIRC-1700", "giornata":5, "data":"//2022", "daCaricare" : true};
