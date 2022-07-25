@@ -6,7 +6,7 @@ matchs['CIS-Q-3'] = {"id":"1344383", "lega":"CIS-Q", "giornata":3, "data":"21/02
 matchs['CIS-Q-4'] = {"id":"1360805", "lega":"CIS-Q", "giornata":4, "data":"04/04/2022", "daCaricare" : true};
 
 //CIS - Finali
-matchs['CIS-F-1'] = {"id":"", "lega":"CIS-F", "giornata":1, "data":"//2022", "daCaricare" : true};
+matchs['CIS-F-1'] = {"id":"1405899", "lega":"CIS-F", "giornata":1, "data":"01/08/2022", "daCaricare" : true};
 matchs['CIS-F-2'] = {"id":"", "lega":"CIS-F", "giornata":2, "data":"//2022", "daCaricare" : true};
 matchs['CIS-F-3'] = {"id":"", "lega":"CIS-F", "giornata":3, "data":"//2022", "daCaricare" : true};
 matchs['CIS-F-4'] = {"id":"", "lega":"CIS-F", "giornata":4, "data":"//2022", "daCaricare" : true};
