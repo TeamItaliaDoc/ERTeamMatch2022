@@ -77,6 +77,17 @@ matchs['EIRC-4-7'] = {"id":"", "lega":"EIRC-4", "giornata":'R2c', "data":"//2022
 matchs['EIRC-4-8'] = {"id":"", "lega":"EIRC-4", "giornata":'R2d', "data":"//2022", "daCaricare" : true};
 matchs['EIRC-4-9'] = {"id":"", "lega":"EIRC-4", "giornata":9, "data":"//2022", "daCaricare" : true};
 
+//1WL - GEO
+matchs['1WL-GEO-1'] = {"id":"0", "lega":"1WL-GEO", "giornata":1, "data":"10/07/2021", "daCaricare" : true,
+"avversarioName":"","risultato":"Bye", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""}; 
+matchs['1WL-GEO-2'] = {"id":"1410041", "lega":"1WL-GEO", "giornata":2, "data":"14/08/2021", "daCaricare" : true};
+matchs['1WL-GEO-3'] = {"id":"", "lega":"1WL-GEO", "giornata":3, "data":"11/09/2021", "daCaricare" : true};
+matchs['1WL-GEO-4'] = {"id":"", "lega":"1WL-GEO", "giornata":4, "data":"09/10/2021", "daCaricare" : true};
+matchs['1WL-GEO-5'] = {"id":"", "lega":"1WL-GEO", "giornata":5, "data":"30/10/2021", "daCaricare" : true};
+matchs['1WL-GEO-6'] = {"id":"", "lega":"1WL-GEO", "giornata":6, "data":"13/11/2021", "daCaricare" : true};
+matchs['1WL-GEO-7'] = {"id":"", "lega":"1WL-GEO", "giornata":7, "data":"11/12/2021", "daCaricare" : true};
+
+
 //Amichevoli 
 matchs['AMICI-1'] = {"id":"1330825", "lega":"AMICI", "giornata":1, "data":"14/01/2022", "daCaricare" : true};
 matchs['AMICI-2'] = {"id":"", "lega":"AMICI", "giornata":1, "data":"//2022", "daCaricare" : true};
