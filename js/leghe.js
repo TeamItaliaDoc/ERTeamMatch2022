@@ -1,3 +1,5 @@
+// 2023
+//1418127
 
 //CIS - Qualificazioni
 matchs['CIS-Q-1'] = {"id":"1326201", "lega":"CIS-Q", "giornata":1, "data":"10/01/2022", "daCaricare" : true};
@@ -8,7 +10,7 @@ matchs['CIS-Q-4'] = {"id":"1360805", "lega":"CIS-Q", "giornata":4, "data":"04/04
 //CIS - Finali
 matchs['CIS-F-1'] = {"id":"1405899", "lega":"CIS-F", "giornata":1, "data":"01/08/2022", "daCaricare" : true};
 matchs['CIS-F-2'] = {"id":"1412297", "lega":"CIS-F", "giornata":2, "data":"22/08/2022", "daCaricare" : true};
-matchs['CIS-F-3'] = {"id":"", "lega":"CIS-F", "giornata":3, "data":"//2022", "daCaricare" : true};
+matchs['CIS-F-3'] = {"id":"1417645", "lega":"CIS-F", "giornata":3, "data":"12/09/2022", "daCaricare" : true};
 matchs['CIS-F-4'] = {"id":"", "lega":"CIS-F", "giornata":4, "data":"//2022", "daCaricare" : true};
 matchs['CIS-F-5'] = {"id":"", "lega":"CIS-F", "giornata":5, "data":"//2022", "daCaricare" : true};
 
