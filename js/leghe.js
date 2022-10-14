@@ -12,7 +12,7 @@ matchs['CIS-F-1'] = {"id":"1405899", "lega":"CIS-F", "giornata":1, "data":"01/08
 matchs['CIS-F-2'] = {"id":"1412297", "lega":"CIS-F", "giornata":2, "data":"22/08/2022", "daCaricare" : true};
 matchs['CIS-F-3'] = {"id":"1417645", "lega":"CIS-F", "giornata":3, "data":"12/09/2022", "daCaricare" : true};
 matchs['CIS-F-4'] = {"id":"1422519", "lega":"CIS-F", "giornata":4, "data":"02/10/2022", "daCaricare" : true};
-matchs['CIS-F-5'] = {"id":"", "lega":"CIS-F", "giornata":5, "data":"//2022", "daCaricare" : true};
+matchs['CIS-F-5'] = {"id":"1428455", "lega":"CIS-F", "giornata":5, "data":"24/10/2022", "daCaricare" : true};
 
 //EU
 matchs['EU-1'] = {"id":"", "lega":"EU", "giornata":1, "data":"//2022", "daCaricare" : true};
