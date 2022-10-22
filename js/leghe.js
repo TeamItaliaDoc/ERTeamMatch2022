@@ -76,7 +76,7 @@ matchs['EIRC-4-4'] = {"id":"1391733", "lega":"EIRC-4", "giornata":'R1d', "data":
 matchs['EIRC-4-5'] = {"id":"1407335", "lega":"EIRC-4", "giornata":'R2a', "data":"26/07/2022", "daCaricare" : true};
 matchs['EIRC-4-6'] = {"id":"1414935", "lega":"EIRC-4", "giornata":'R2b', "data":"04/09/2022", "daCaricare" : true};
 matchs['EIRC-4-7'] = {"id":"1422969", "lega":"EIRC-4", "giornata":'R2c', "data":"02/10/2022", "daCaricare" : true};
-matchs['EIRC-4-8'] = {"id":"", "lega":"EIRC-4", "giornata":'R2d', "data":"//2022", "daCaricare" : true};
+matchs['EIRC-4-8'] = {"id":"1431409", "lega":"EIRC-4", "giornata":'R2d', "data":"30/10/2022", "daCaricare" : true};
 matchs['EIRC-4-9'] = {"id":"", "lega":"EIRC-4", "giornata":9, "data":"//2022", "daCaricare" : true};
 
 //1WL - GEO
@@ -85,7 +85,7 @@ matchs['1WL-GEO-1'] = {"id":"0", "lega":"1WL-GEO", "giornata":1, "data":"10/07/2
 matchs['1WL-GEO-2'] = {"id":"1410041", "lega":"1WL-GEO", "giornata":2, "data":"14/08/2021", "daCaricare" : true};
 matchs['1WL-GEO-3'] = {"id":"1415951", "lega":"1WL-GEO", "giornata":3, "data":"11/09/2021", "daCaricare" : true};
 matchs['1WL-GEO-4'] = {"id":"1424191", "lega":"1WL-GEO", "giornata":4, "data":"09/10/2021", "daCaricare" : true};
-matchs['1WL-GEO-5'] = {"id":"", "lega":"1WL-GEO", "giornata":5, "data":"30/10/2021", "daCaricare" : true};
+matchs['1WL-GEO-5'] = {"id":"1429295", "lega":"1WL-GEO", "giornata":5, "data":"30/10/2021", "daCaricare" : true};
 matchs['1WL-GEO-6'] = {"id":"", "lega":"1WL-GEO", "giornata":6, "data":"13/11/2021", "daCaricare" : true};
 matchs['1WL-GEO-7'] = {"id":"", "lega":"1WL-GEO", "giornata":7, "data":"11/12/2021", "daCaricare" : true};
 
