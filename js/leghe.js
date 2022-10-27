@@ -5,7 +5,7 @@
 matchs['CIS-Q-1'] = {"id":"1326201", "lega":"CIS-Q", "giornata":1, "data":"10/01/2022", "daCaricare" : true};
 matchs['CIS-Q-2'] = {"id":"1333915", "lega":"CIS-Q", "giornata":2, "data":"31/01/2022", "daCaricare" : true};
 matchs['CIS-Q-3'] = {"id":"1344383", "lega":"CIS-Q", "giornata":3, "data":"21/02/2022", "daCaricare" : true};
-matchs['CIS-Q-4'] = {"id":"1360805", "lega":"CIS-Q", "giornata":4, "data":"04/04/2022", "daCaricare" : true};
+//??????matchs['CIS-Q-4'] = {"id":"1360805", "lega":"CIS-Q", "giornata":4, "data":"04/04/2022", "daCaricare" : true};
 
 //CIS - Finali
 matchs['CIS-F-1'] = {"id":"1405899", "lega":"CIS-F", "giornata":1, "data":"01/08/2022", "daCaricare" : true};
@@ -24,7 +24,6 @@ matchs['EU-6'] = {"id":"", "lega":"EU", "giornata":6, "data":"//2022", "daCarica
 matchs['EU-7'] = {"id":"", "lega":"EU", "giornata":7, "data":"//2022", "daCaricare" : true};
 matchs['EU-8'] = {"id":"", "lega":"EU", "giornata":8, "data":"//2022", "daCaricare" : true};
 matchs['EU-9'] = {"id":"", "lega":"EU", "giornata":9, "data":"//2022", "daCaricare" : true};
-
 //EIRC-KN
 matchs['EIRC-KN-1'] = {"id":"1256597", "lega":"EIRC-KN", "giornata":"Ottavi", "data":"25/01/2022", "daCaricare" : true};
 matchs['EIRC-KN-2'] = {"id":"1303685", "lega":"EIRC-KN", "giornata":"Quarti", "data":"15/02/2022", "daCaricare" : true};
@@ -33,9 +32,8 @@ matchs['EIRC-KN-5'] = {"id":"1427685", "lega":"EIRC-KN", "giornata":"Finale", "d
 
 //EIRC-1400
 matchs['EIRC-1400-1'] = {"id":"1362583", "lega":"EIRC-1400", "giornata":1, "data":"12/04/2022", "daCaricare" : true};
-matchs['EIRC-1400-2'] = {"id":"1373267", "lega":"EIRC-1400", "giornata":2, "data":"08/05/2022", "daCaricare" : true,
-"avversarioName":"Rot-Weiß-Hessen","risultato":"Vinto forfait", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
-
+//matchs['EIRC-1400-2'] = {"id":"0", "lega":"EIRC-1400", "giornata":2, "data":"08/05/2022", "daCaricare" : true,
+//"avversarioName":"Rot-Weiß-Hessen","risultato":"Vinto forfait", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
 matchs['EIRC-1400-3'] = {"id":"1386533", "lega":"EIRC-1400", "giornata":3, "data":"12/06/2022", "daCaricare" : true};
 matchs['EIRC-1400-4'] = {"id":"1396735", "lega":"EIRC-1400", "giornata":4, "data":"03/07/2022", "daCaricare" : true};
 matchs['EIRC-1400-5'] = {"id":"1408147", "lega":"EIRC-1400", "giornata":5, "data":"14/08/2022", "daCaricare" : true};
@@ -66,7 +64,6 @@ matchs['EIRC-OPEN-7'] = {"id":"1394011", "lega":"EIRC-OPEN", "giornata":7, "data
 matchs['EIRC-OPEN-8'] = {"id":"", "lega":"EIRC-OPEN", "giornata":8, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-OPEN-9'] = {"id":"", "lega":"EIRC-OPEN", "giornata":9, "data":"//2022", "daCaricare" : true};
 
-
 //EIRC-4
 matchs['EIRC-4-1'] = {"id":"1359677", "lega":"EIRC-4", "giornata":'R1a', "data":"03/04/2022", "daCaricare" : true};
 matchs['EIRC-4-2'] = {"id":"0", "lega":"EIRC-4", "giornata":'R1b', "data":"01/05/2022", "daCaricare" : false,
@@ -84,7 +81,7 @@ matchs['1WL-GEO-1'] = {"id":"0", "lega":"1WL-GEO", "giornata":1, "data":"10/07/2
 "avversarioName":"","risultato":"Bye", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""}; 
 matchs['1WL-GEO-2'] = {"id":"1410041", "lega":"1WL-GEO", "giornata":2, "data":"14/08/2021", "daCaricare" : true};
 matchs['1WL-GEO-3'] = {"id":"1415951", "lega":"1WL-GEO", "giornata":3, "data":"11/09/2021", "daCaricare" : true};
-matchs['1WL-GEO-4'] = {"id":"1424191", "lega":"1WL-GEO", "giornata":4, "data":"09/10/2021", "daCaricare" : true};
+Matchs['1WL-GEO-4'] = {"id":"1424191", "lega":"1WL-GEO", "giornata":4, "data":"09/10/2021", "daCaricare" : true};
 matchs['1WL-GEO-5'] = {"id":"1429295", "lega":"1WL-GEO", "giornata":5, "data":"30/10/2021", "daCaricare" : true};
 matchs['1WL-GEO-6'] = {"id":"", "lega":"1WL-GEO", "giornata":6, "data":"13/11/2021", "daCaricare" : true};
 matchs['1WL-GEO-7'] = {"id":"", "lega":"1WL-GEO", "giornata":7, "data":"11/12/2021", "daCaricare" : true};
