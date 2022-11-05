@@ -82,7 +82,7 @@ matchs['1WL-GEO-2'] = {"id":"1410041", "lega":"1WL-GEO", "giornata":2, "data":"1
 matchs['1WL-GEO-3'] = {"id":"1415951", "lega":"1WL-GEO", "giornata":3, "data":"11/09/2021", "daCaricare" : true};
 matchs['1WL-GEO-4'] = {"id":"1424191", "lega":"1WL-GEO", "giornata":4, "data":"09/10/2021", "daCaricare" : true};
 matchs['1WL-GEO-5'] = {"id":"1429295", "lega":"1WL-GEO", "giornata":5, "data":"30/10/2021", "daCaricare" : true};
-matchs['1WL-GEO-6'] = {"id":"", "lega":"1WL-GEO", "giornata":6, "data":"13/11/2021", "daCaricare" : true};
+matchs['1WL-GEO-6'] = {"id":"1435237", "lega":"1WL-GEO", "giornata":6, "data":"20/11/2021", "daCaricare" : true};
 matchs['1WL-GEO-7'] = {"id":"", "lega":"1WL-GEO", "giornata":7, "data":"11/12/2021", "daCaricare" : true};
 
 
