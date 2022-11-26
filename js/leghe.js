@@ -4,6 +4,7 @@ matchs['CIS-Q-1'] = {"id":"1326201", "lega":"CIS-Q", "giornata":1, "data":"10/01
 matchs['CIS-Q-2'] = {"id":"1333915", "lega":"CIS-Q", "giornata":2, "data":"31/01/2022", "daCaricare" : true};
 matchs['CIS-Q-3'] = {"id":"1344383", "lega":"CIS-Q", "giornata":3, "data":"21/02/2022", "daCaricare" : true};
 matchs['CIS-Q-4'] = {"id":"1360805", "lega":"CIS-Q", "giornata":4, "data":"04/04/2022", "daCaricare" : true};
+
 //CIS - Finali
 matchs['CIS-F-1'] = {"id":"1405899", "lega":"CIS-F", "giornata":1, "data":"01/08/2022", "daCaricare" : true};
 matchs['CIS-F-2'] = {"id":"1412297", "lega":"CIS-F", "giornata":2, "data":"22/08/2022", "daCaricare" : true};
@@ -11,7 +12,6 @@ matchs['CIS-F-3'] = {"id":"1417645", "lega":"CIS-F", "giornata":3, "data":"12/09
 matchs['CIS-F-4'] = {"id":"1422519", "lega":"CIS-F", "giornata":4, "data":"02/10/2022", "daCaricare" : true};
 matchs['CIS-F-5'] = {"id":"1428455", "lega":"CIS-F", "giornata":5, "data":"24/10/2022", "daCaricare" : true};
 matchs['CIS-F-6'] = {"id":"1434345", "lega":"CIS-F", "giornata":5, "data":"14/11/2022", "daCaricare" : true};
-
 
 //EU
 matchs['EU-1'] = {"id":"", "lega":"EU", "giornata":1, "data":"//2022", "daCaricare" : true};
@@ -62,8 +62,8 @@ matchs['EIRC-OPEN-6'] = {"id":"1378887", "lega":"EIRC-OPEN", "giornata":6, "data
 matchs['EIRC-OPEN-7'] = {"id":"1394011", "lega":"EIRC-OPEN", "giornata":7, "data":"26/06/2022", "daCaricare" : true};
 matchs['EIRC-OPEN-8'] = {"id":"", "lega":"EIRC-OPEN", "giornata":8, "data":"//2022", "daCaricare" : true};
 matchs['EIRC-OPEN-9'] = {"id":"", "lega":"EIRC-OPEN", "giornata":9, "data":"//2022", "daCaricare" : true};
-
 //EIRC-4
+
 matchs['EIRC-4-1'] = {"id":"1359677", "lega":"EIRC-4", "giornata":'R1a', "data":"03/04/2022", "daCaricare" : true};
 matchs['EIRC-4-2'] = {"id":"0", "lega":"EIRC-4", "giornata":'R1b', "data":"01/05/2022", "daCaricare" : false,
  "avversarioName":"Rot-Weiß-Hessen","risultato":"Vinto forfait", "risultatoStyle" :"color:green;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
@@ -74,6 +74,10 @@ matchs['EIRC-4-6'] = {"id":"1414935", "lega":"EIRC-4", "giornata":'R2b', "data":
 matchs['EIRC-4-7'] = {"id":"1422969", "lega":"EIRC-4", "giornata":'R2c', "data":"02/10/2022", "daCaricare" : true};
 matchs['EIRC-4-8'] = {"id":"0", "lega":"EIRC-4", "giornata":'R2d', "data":"30/10/2022", "daCaricare" : true,
 "avversarioName":"gewest-zuid-nederland", "risultato":"Persa - Non disputata", "risultatoStyle" :"color:red;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
+matchs['EIRC-4-9'] = {"id":"1441321", "lega":"EIRC-4", "giornata":'R3a', "data":"11/12/2022", "daCaricare" : true};
+matchs['EIRC-4-10'] = {"id":"", "lega":"EIRC-4", "giornata":'R3b', "data":"//2023", "daCaricare" : false},
+matchs['EIRC-4-11'] = {"id":"", "lega":"EIRC-4", "giornata":'R3c', "data":"//2023", "daCaricare" : true};
+matchs['EIRC-4-12'] = {"id":"", "lega":"EIRC-4", "giornata":'R3d', "data":"//2023", "daCaricare" : true};
 
 //1WL - GEO
 matchs['1WL-GEO-1'] = {"id":"0", "lega":"1WL-GEO", "giornata":1, "data":"10/07/2021", "daCaricare" : true,
@@ -84,7 +88,6 @@ matchs['1WL-GEO-4'] = {"id":"1424191", "lega":"1WL-GEO", "giornata":4, "data":"0
 matchs['1WL-GEO-5'] = {"id":"1429295", "lega":"1WL-GEO", "giornata":5, "data":"30/10/2021", "daCaricare" : true};
 matchs['1WL-GEO-6'] = {"id":"1435237", "lega":"1WL-GEO", "giornata":6, "data":"20/11/2021", "daCaricare" : true};
 matchs['1WL-GEO-7'] = {"id":"", "lega":"1WL-GEO", "giornata":7, "data":"11/12/2021", "daCaricare" : true};
-
 
 //Amichevoli 
 matchs['AMICI-1'] = {"id":"1330825", "lega":"AMICI", "giornata":1, "data":"14/01/2022", "daCaricare" : true};

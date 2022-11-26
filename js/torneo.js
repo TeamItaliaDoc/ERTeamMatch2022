@@ -34,6 +34,20 @@ function elabora() {
             }
         }
     }
+    avversari['gewest-zuid-nederland'] = {};
+    avversari['gewest-zuid-nederland'].url = 'https://api.chess.com/pub/club/gewest-zuid-nederland';
+    avversari['gewest-zuid-nederland'].avatar = 'https://images.chesscomfiles.com/uploads/v1/group/349123.dc1f4344.50x50o.8e9010b56e1c.jpeg';
+    for (var i in matchs) {
+        if (matchs[i].avversarioName) {
+            if (! avversari[matchs[i].avversarioName]) {
+                avversari[matchs[i].avversarioName] = {};
+                avversari[matchs[i].avversarioName].url = 'https://api.chess.com/pub/club/' + matchs[i].avversarioName.replace(' ', '-');
+                avversari[matchs[i].avversarioName].avatar = '';
+            }
+        }
+    }
+
+
 
     //Carico i dati di tutti i match
     for (var i in matchs) {
@@ -201,6 +215,12 @@ function getTeamAvatar(url)
 }
 
 function stampaTeams() {
+
+    console.log('AVATR TROVATI --------------------');
+    for (var name in avversari) {
+        console.log(avversari[name].avatar);
+    }
+    console.log('AVATR TROVATI --------------------');
         //Stampo la tabelle dei teams
         for (var index in matchs) {
            if ( matchs[index].id != '') { 
@@ -209,7 +229,8 @@ function stampaTeams() {
                    link = '<a href="' +  matchs[index].url + '" target=”_blank”> <img height="25" width="25" src="img/link.jpg"></a>';
                 }
                 var avatar = '';
-                if (matchs[index].avversarioName != '') {
+                if (matchs[index].avversarioName && matchs[index].avversarioName != '') {
+                    console.log('AVATAR: ' + matchs[index].avversarioName);
                     avatar = '<img class="classifica-avatar" src="' + avversari[matchs[index].avversarioName].avatar + '"><a style="color:black;text-decoration: none;font-weight: normal;" href="https://www.chess.com/club/' + matchs[index].avversarioName.replace(' ', '-') + '" target=”_blank”> ' +   matchs[index].avversarioName + '</a>';
                 }
                  var stRiga = '<tr class="classifica-giocatori">' +
