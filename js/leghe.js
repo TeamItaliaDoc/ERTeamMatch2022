@@ -75,7 +75,7 @@ matchs['EIRC-4-7'] = {"id":"1422969", "lega":"EIRC-4", "giornata":'R2c', "data":
 matchs['EIRC-4-8'] = {"id":"0", "lega":"EIRC-4", "giornata":'R2d', "data":"30/10/2022", "daCaricare" : true,
 "avversarioName":"gewest-zuid-nederland", "risultato":"Persa - Non disputata", "risultatoStyle" :"color:red;font-weight:bold", "giocatori":"", "score":"", "url" : ""};  //Vinto forfait
 matchs['EIRC-4-9'] = {"id":"1441321", "lega":"EIRC-4", "giornata":'R3a', "data":"11/12/2022", "daCaricare" : true};
-matchs['EIRC-4-10'] = {"id":"", "lega":"EIRC-4", "giornata":'R3b', "data":"//2023", "daCaricare" : false},
+matchs['EIRC-4-10'] = {"id":"1450179", "lega":"EIRC-4", "giornata":'R3b', "data":"08/01/2023", "daCaricare" : true},
 matchs['EIRC-4-11'] = {"id":"", "lega":"EIRC-4", "giornata":'R3c', "data":"//2023", "daCaricare" : true};
 matchs['EIRC-4-12'] = {"id":"", "lega":"EIRC-4", "giornata":'R3d', "data":"//2023", "daCaricare" : true};
 
