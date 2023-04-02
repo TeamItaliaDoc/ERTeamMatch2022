@@ -78,6 +78,10 @@ matchs['EIRC-4-9'] = {"id":"1441321", "lega":"EIRC-4", "giornata":'R3a', "data":
 matchs['EIRC-4-10'] = {"id":"1450179", "lega":"EIRC-4", "giornata":'R3b', "data":"08/01/2023", "daCaricare" : true},
 matchs['EIRC-4-11'] = {"id":"1458619", "lega":"EIRC-4", "giornata":'R3c', "data":"05/02/2023", "daCaricare" : true};
 matchs['EIRC-4-12'] = {"id":"1466509", "lega":"EIRC-4", "giornata":'R3d', "data":"05/03/2023", "daCaricare" : true};
+matchs['EIRC-4-13'] = {"id":"1479551", "lega":"EIRC-4", "giornata":'R4a', "data":"16/04/2023", "daCaricare" : true};
+matchs['EIRC-4-14'] = {"id":"", "lega":"EIRC-4", "giornata":'R4b', "data":"//2023", "daCaricare" : true},
+matchs['EIRC-4-15'] = {"id":"", "lega":"EIRC-4", "giornata":'R4c', "data":"//2023", "daCaricare" : true};
+matchs['EIRC-4-16'] = {"id":"", "lega":"EIRC-4", "giornata":'R4d', "data":"//2023", "daCaricare" : true};
 
 //1WL - GEO
 matchs['1WL-GEO-1'] = {"id":"0", "lega":"1WL-GEO", "giornata":1, "data":"10/07/2021", "daCaricare" : true,
